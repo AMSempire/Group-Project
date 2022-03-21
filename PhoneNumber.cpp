@@ -5,21 +5,20 @@
 using namespace std;
 
 // empty constructor
-PhoneNumber(){
+PhoneNumber::PhoneNumber(){
   _phoneNumber= " ";
   _phoneType= " ";
 }
-PhoneNumber(string phoneNumber, string phoneType){
+PhoneNumber::PhoneNumber(string phoneNumber, string phoneType){
   _phoneNumber= phoneNumber;
   _phoneType= phoneType;
+
 }
-~PhoneNumber(){
-  cout<<"This destroys the object phone number"<<endl;
-}
-string PhoneNumber::getPhoneNumber {
+
+string PhoneNumber::getPhoneNumber() {
   return _phoneNumber;
 }
-string PhoneNumber::getPhoneType {
+string PhoneNumber::getPhoneType() {
   return _phoneType;
 }
 
