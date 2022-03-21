@@ -12,7 +12,9 @@ private:
 public:
 	PhoneNumber();// constructor
 	PhoneNumber(string phoneNumber, string phoneType);
-	~PhoneNumber();// destructor
+	~PhoneNumber(){
+        cout << "Phone number destroyed.\n";
+    }// destructor
 	 //accessor functions
 	string getPhoneNumber();
 	string getPhoneType();
