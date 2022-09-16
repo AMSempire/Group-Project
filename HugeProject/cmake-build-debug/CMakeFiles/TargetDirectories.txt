@@ -1,0 +1,3 @@
+/Users/aaronshabon/Downloads/Compsci 122/BigProject/HugeProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/aaronshabon/Downloads/Compsci 122/BigProject/HugeProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aaronshabon/Downloads/Compsci 122/BigProject/HugeProject/cmake-build-debug/CMakeFiles/HugeProject.dir
